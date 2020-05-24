@@ -1,3 +1,4 @@
+Q1
 object MainObject {
     
        def convertTofahrenheit(c: Double ) {
@@ -13,7 +14,7 @@ object MainObject {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
-
+Q2
 object MainObject {
     
        def findVolume(r: Double ) {
@@ -30,6 +31,7 @@ object MainObject {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+Q3
 object MainObject {
     
        def whlolesaleCost(cps: Double ) {
