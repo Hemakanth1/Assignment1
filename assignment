@@ -1,0 +1,56 @@
+object MainObject {
+    
+       def convertTofahrenheit(c: Double ) {
+       var f=c*1.8000 + 32.00
+       println(f)
+    }
+   
+      def main(args: Array[String]) {  
+        convertTofahrenheit(35)           
+ 
+    }  
+   
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+object MainObject {
+    
+       def findVolume(r: Double ) {
+       var v: Double=1.33*3.14*r*r*r
+
+       println(v)
+    }
+   
+      def main(args: Array[String]) {  
+                findVolume(5) 
+ 
+    }  
+   
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+object MainObject {
+    
+       def whlolesaleCost(cps: Double ) {
+           
+       var cost_before_discount: Double=24.95*cps
+       var cost_after_discount :Double= cost_before_discount- cost_before_discount*0.4
+       var final_cost :Double=cost_after_discount
+       
+       if(cps<=50){
+             final_cost=cost_after_discount+3
+       }
+       else{
+           final_cost=cost_after_discount +3+ (cps-50)*0.75
+       }
+       
+       println(final_cost)
+    }
+   
+      def main(args: Array[String]) {  
+            whlolesaleCost(60 )    
+ 
+    }  
+   
+}
